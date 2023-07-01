@@ -17,7 +17,7 @@ function App() {
                 className={CURSOR_CLASS_NAME}
                 sequence={[1000,
                   "hi!! I'm Harshit",
-                  800,
+                  400,
                   (el) => el.classList.remove(CURSOR_CLASS_NAME),
                 ]}
                 repeat={0}
@@ -27,10 +27,11 @@ function App() {
               <TypeAnimation
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  2500,
+                sequence={[
+                   (el) => el.classList.remove(CURSOR_CLASS_NAME),
+                   2500,
                   "Bearing Civil Engineering from NIT Jamshedpur.",
-                  800,
+                  200,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
                 ]}
                 repeat={0}
@@ -41,7 +42,7 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  5500,
+                  5000,
                   "Seems like my future is darker than this terminal.",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
@@ -53,7 +54,7 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  6000,
+                  7500,
                   "-----------------------------------------------------------------------------------------------",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
@@ -65,7 +66,7 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  6000,
+                  7500,
                   "---------------------------------------------------------------------------------------------",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
@@ -95,7 +96,7 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  11500,
+                  12500,
                   "Hello my name is peter parker!!",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
@@ -108,15 +109,15 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  12500,
+                  14000,
                   "I was bitten by this radioactive spider and for the 10 yrs, i have been one and only spiderman. I am pretty sure u know the rest.",
-                  800,
+                  1000,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
                   200,
-                  "wrong intro"
+                  "ohh!! Wrong intro💀"
                 ]}
                 repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 30 }}
+                speed={{ type: 'keyStrokeDelayInMs', value: 20 }}
                 omitDeletionAnimation={true}
               />
               <br />
@@ -124,7 +125,7 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  11500,
+                  19000,
                   "Hello my name is Harshit.",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
@@ -137,13 +138,13 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  11500,
+                  22000,
                   "I design and code beautifully simple things, and I love what I do. It have been 1 yr since i am doing this.",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
                 ]}
                 repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
+                speed={{ type: 'keyStrokeDelayInMs', value: 30 }}
               />
               <br />
 
@@ -152,13 +153,13 @@ function App() {
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  11500,
+                  26000,
                   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
                 ]}
                 repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
+                speed={{ type: 'keyStrokeDelayInMs', value: 10 }}
               />
               <br />
               </div>
