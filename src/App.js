@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="">
       <div className='pg-1'>
-        <div className='text-white font-monaco relative flex items-center 
-        justify-center h-screen overflow-hidden '>
+        <div className='text-gray-300	 font-monaco relative flex items-center 
+        justify-center h-screen overflow-hidden text-lg	'>
           <div className='w-screen h-full top-0'>
             <img src="./terminal.png" className=''></img>
             <div className='ml-10'>
