@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'monaco': ['"monaco"', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+    },
   },
   plugins: [],
 }
