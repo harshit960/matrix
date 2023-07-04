@@ -7,17 +7,17 @@ function App() {
   return (
     <div className="bg-black text-gray-300 font-monaco">
       <div className='pg-1 grid'>
-        <div className='navbar flex flex-row items-center z-20'>
-          <div className='basis-1/2'>
-            <img src='./logo.png' className='h-14 w-auto m-5 ml-10 '></img></div>
-          <a href='' className='basis-1/4 '>Home</a>
-          <a href='' className='basis-1/4 '>About</a>
-          <a href='' className='basis-1/4 '>Contact</a>
+        <div className=' navbar flex flex-row items-center justify-center z-20'>
+          <div className='basis-full flex items-center justify-center'>
+            <img src='./logo.png' className='h-16  w-auto '></img></div>
+          <a href='' className='basis-1/4 hidden sm:block'>Home</a>
+          <a href='' className='basis-1/4 hidden sm:block'>About</a>
+          <a href='' className='basis-1/4 hidden sm:block' >Contact</a>
 
         </div>
 
 
-        <div className='	  relative flex items-center 
+        <div className='relative flex items-center 
         jjustify-center h-screen text-lg	'>
           <div className='   z-10'>
             {/* <img src="./terminal.png" className=''></img> */}
