@@ -94,7 +94,12 @@ function App() {
             className="absolute -z-5  
              min-h-full brightness-50	min-w-full">
           </img>
-        </div>
+      </div>
+      
+
+      <div className='pg-2 h-screen w-screen bg-slate-600'>
+        data
+      </div>
       <style global jsx>{`
       .custom-type-animation-cursor::after {
         content: '|';
