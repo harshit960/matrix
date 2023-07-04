@@ -6,8 +6,8 @@ const CURSOR_CLASS_NAME = 'custom-type-animation-cursor';
 function App() {
   return (
     <div className="bg-black text-gray-300 font-monaco">
-      <div className='pg-1 grid'>
-        <div className=' navbar flex flex-row items-center justify-center z-20'>
+      <div className='pg-1 grid overflow-y-auto	h-screen w-screen'>
+        <div className=' navbar flex flex-row items-center justify-center z-20 bg-black'>
           <div className='basis-full flex items-center justify-center'>
             <img src='./logo.png' className='h-16  w-auto '></img></div>
           <a href='' className='basis-1/4 hidden sm:block'>Home</a>
@@ -19,7 +19,7 @@ function App() {
 
         <div className='relative flex items-center 
         jjustify-center h-screen text-lg	'>
-          <div className='   z-10'>
+          <div className='z-10'>
             {/* <img src="./terminal.png" className=''></img> */}
             <div className='ml-10 mt-16 mr-10 '>
 
