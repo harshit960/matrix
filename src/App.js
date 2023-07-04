@@ -19,7 +19,7 @@ function App() {
 
         <div className='	  relative flex items-center 
         jjustify-center h-screen text-lg	'>
-          <div className=' h-full  z-10'>
+          <div className='   z-10'>
             {/* <img src="./terminal.png" className=''></img> */}
             <div className='ml-10 mt-16 mr-10 '>
 
