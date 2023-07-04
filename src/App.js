@@ -18,10 +18,10 @@ function App() {
 
 
         <div className='relative flex items-center 
-        jjustify-center h-screen text-lg	overflow-y-auto'>
+        jjustify-center  text-lg	overflow-y-auto'>
           <div className='z-10'>
             {/* <img src="./terminal.png" className=''></img> */}
-            <div className='ml-10 mt-16 mr-10 '>
+            <div className='ml-5 mt-16 mr-5 '>
 
               <TypeAnimation
                 cursor={false}
@@ -64,14 +64,14 @@ function App() {
                   (el) => el.classList.remove(CURSOR_CLASS_NAME),
                 ]}
                 repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 5 }}
+                speed={{ type: 'keyStrokeDelayInMs', value: 1 }}
               />
               <br />
               <TypeAnimation
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  13000,
+                  5000,
                   "I design and code beautifully simple things, and I love what I do. It have been 1 yr since i am doing this.",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
