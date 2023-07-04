@@ -5,8 +5,8 @@ const CURSOR_CLASS_NAME = 'custom-type-animation-cursor';
 
 function App() {
   return (
-    <div className="bg-black text-gray-300 font-monaco">
-      <div className='pg-1 grid 	h-screen w-screen'>
+    <div className="bg-black text-gray-300 font-monaco overflow-hidden">
+      <div className='pg-1 grid 	h-screen w-screen '>
         <div className=' navbar h-16 flex flex-row items-center justify-center z-20 bg-black'>
           <div className='basis-full flex items-center justify-center sm:justify-start sm:pl-10'>
             <img src='./logo.png' className='h-16  w-auto '></img></div>
@@ -96,26 +96,27 @@ function App() {
       </div>
 
 
-      <div className='pg-2 h-screen w-screen bg-slate-600 pt-10 pl-5 pr-5 sm:pl-10 sm:pr-10'>
-        Skills:
-        <br />
-        *React.js: I love leveraging React to build captivating and interactive user interfaces that leave a lasting impression. From sleek single-page applications to engaging UI components, React is my superpower.
-        <br />
+      <div className='pg-2 h-screen w-screen bg-black pt-10 pl-5 pr-5 sm:pl-10 sm:pr-10 flex justify-center'>
+        <div className='w-96'>
+          Skills:
+          <br />
+          *React.js: I love leveraging React to build captivating and interactive user interfaces that leave a lasting impression. From sleek single-page applications to engaging UI components, React is my superpower.
+          <br />
 
-        *Python Expert: Python is my trusty companion for building robust back-end solutions. With Django and Flask, I create efficient web applications that deliver seamless experiences and efficient workflows.
-        <br />
-        *Selenium Web Scraping: Web scraping is my secret weapon for data extraction and automation. I utilize Selenium to scrape websites, saving time and effort while gathering valuable information.
-        <br />
-        *Premiere Pro: As a Premiere Pro expert, I add a touch of creativity to videos. From editing footage to applying stunning effects and transitions, I transform raw footage into captivating stories.
+          *Python Expert: Python is my trusty companion for building robust back-end solutions. With Django and Flask, I create efficient web applications that deliver seamless experiences and efficient workflows.
+          <br />
+          *Selenium Web Scraping: Web scraping is my secret weapon for data extraction and automation. I utilize Selenium to scrape websites, saving time and effort while gathering valuable information.
+          <br />
+          *Premiere Pro: As a Premiere Pro expert, I add a touch of creativity to videos. From editing footage to applying stunning effects and transitions, I transform raw footage into captivating stories.
+        </div>
       </div>
-
-      <div className='pg-3 h-screen w-screen bg-slate-600 pt-10 pl-5 pr-5 sm:pl-10 sm:pr-10'>
+      <div className='pg-3 h-screen w-screen bg-black pt-10 pl-5 pr-5 sm:pl-10 sm:pr-10'>
         Freelance Availability:
         I'm thrilled to explore freelance opportunities and bring innovative ideas to life. If you have an exciting project in mind or need assistance with web development, feel free to reach out! Let's create something remarkable together.
       </div>
 
 
-      <div className='pg-4 h-screen w-screen bg-slate-600 pt-10 pl-5 pr-5 sm:pl-10 sm:pr-10'>
+      <div className='pg-4 h-screen w-screen bg-black pt-10 pl-5 pr-5 sm:pl-10 sm:pr-10'>
         Contact:
         I'm eager to connect and discuss potential collaborations or answer any questions you may have. Reach out to me at [Your Email Address] or connect with me on [LinkedIn Profile Link].
 
