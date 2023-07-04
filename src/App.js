@@ -5,156 +5,30 @@ const CURSOR_CLASS_NAME = 'custom-type-animation-cursor';
 
 function App() {
   return (
-    <div className="">
-      <div className='pg-1'>
-        <div className='text-gray-300	 font-monaco relative flex items-center 
-        justify-center h-screen overflow-hidden text-lg	'>
-          <div className='w-screen h-full top-0'>
-            <img src="./terminal.png" className=''></img>
-            <div className='ml-10'>
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[1000,
-                  "hi!! I'm Harshit",
-                  400,
-                  (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
-              />
-              <br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[
-                   (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                   2500,
-                  "Bearing Civil Engineering from NIT Jamshedpur.",
-                  200,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
-              />
-              <br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  5000,
-                  "Seems like my future is darker than this terminal.",
-                  800,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
-              /><br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  7500,
-                  "-----------------------------------------------------------------------------------------------",
-                  800,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 20 }}
-              /><br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  7500,
-                  "---------------------------------------------------------------------------------------------",
-                  800,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 20 }}
-              />
-              <br />
+    <div className="bg-black text-gray-300 font-monaco">
+      <div className='pg-1 grid'>
+        <div className='navbar flex flex-row items-center z-20'>
+          <div className='basis-1/2'>
+            <img src='./logo.png' className='h-14 w-auto m-5 ml-10 '></img></div>
+          <a href='' className='basis-1/4 '>Home</a>
+          <a href='' className='basis-1/4 '>About</a>
+          <a href='' className='basis-1/4 '>Contact</a>
 
-              <br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  10000,
-                  "Alright! Lets do this one last time!",
-                  800,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
-              />
-              <br />
+        </div>
 
-              <br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  12500,
-                  "Hello my name is peter parker!!",
-                  800,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
-              />
-              <br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  14000,
-                  "I was bitten by this radioactive spider and for the 10 yrs, i have been one and only spiderman. I am pretty sure u know the rest.",
-                  1000,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  200,
-                  "ohh!! Wrong intro💀"
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 20 }}
-                omitDeletionAnimation={true}
-              />
-              <br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  19000,
-                  "Hello my name is Harshit.",
-                  800,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 50 }}
-              />
-              <br />
-              <TypeAnimation
-                cursor={false}
-                className={CURSOR_CLASS_NAME}
-                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  22000,
-                  "I design and code beautifully simple things, and I love what I do. It have been 1 yr since i am doing this.",
-                  800,
-                (el) => el.classList.remove(CURSOR_CLASS_NAME),
-                ]}
-                repeat={0}
-                speed={{ type: 'keyStrokeDelayInMs', value: 30 }}
-              />
-              <br />
 
-              <br />
+        <div className='	  relative flex items-center 
+        jjustify-center h-screen text-lg	'>
+          <div className=' h-full  z-10'>
+            {/* <img src="./terminal.png" className=''></img> */}
+            <div className='ml-10 mt-16 mr-10 '>
+
               <TypeAnimation
                 cursor={false}
                 className={CURSOR_CLASS_NAME}
                 sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
-                  26000,
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+                  500,
+                  ">>> console.log(pain)",
                   800,
                 (el) => el.classList.remove(CURSOR_CLASS_NAME),
                 ]}
@@ -162,17 +36,66 @@ function App() {
                 speed={{ type: 'keyStrokeDelayInMs', value: 10 }}
               />
               <br />
-              </div>
-              <div />
-            </div>
+              <br />
 
-            <img src=
-              "./vid.gif"
-              className="absolute -z-10 w-screen 
-            min-w-full min-h-full max-w-none brightness-50	">
-            </img>
-          </div></div>
-        <style global jsx>{`
+              <TypeAnimation
+                cursor={false}
+                className={CURSOR_CLASS_NAME}
+                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
+                  700,
+                  "Loading",
+                  10, "Loading..",
+                  10, "Loading...",
+                  50,
+                (el) => el.classList.remove(CURSOR_CLASS_NAME),
+                ]}
+                repeat={3}
+                speed={{ type: 'keyStrokeDelayInMs', value: 30 }}
+              />
+              <br />
+              <br />
+              <br />
+              <TypeAnimation
+                cursor={false}
+                className={CURSOR_CLASS_NAME}
+                sequence={[2500,
+                  "Hey there! I'm [Your Name], a tech enthusiast and web developer with a passion for crafting innovative digital experiences. With expertise in React, Python, Selenium web scraping, and Premiere Pro, I thrive on pushing boundaries and creating something extraordinary. Oh, and did I mention I have a penchant for freelancing too? Let's dive into the exciting world of technology and create something exceptional together!",
+                  400,
+                  (el) => el.classList.remove(CURSOR_CLASS_NAME),
+                ]}
+                repeat={0}
+                speed={{ type: 'keyStrokeDelayInMs', value: 5 }}
+              />
+              <br />
+              <TypeAnimation
+                cursor={false}
+                className={CURSOR_CLASS_NAME}
+                sequence={[(el) => el.classList.remove(CURSOR_CLASS_NAME),
+                  13000,
+                  "I design and code beautifully simple things, and I love what I do. It have been 1 yr since i am doing this.",
+                  800,
+                (el) => el.classList.remove(CURSOR_CLASS_NAME),
+                ]}
+                repeat={0}
+                speed={{ type: 'keyStrokeDelayInMs', value: 1 }}
+              />
+              <br />
+
+
+
+            </div>
+            <div />
+          </div>
+
+          
+        </div>
+        <img src=
+            "./vid.gif"
+            className="absolute -z-5  
+             min-h-full brightness-50	min-w-full">
+          </img>
+        </div>
+      <style global jsx>{`
       .custom-type-animation-cursor::after {
         content: '|';
         animation: cursor 1.1s infinite step-start;
@@ -183,8 +106,8 @@ function App() {
         }
       }
     `}</style>
-      </div>
-      );
+    </div>
+  );
 }
 
-      export default App;
+export default App;
