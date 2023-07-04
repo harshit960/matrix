@@ -18,7 +18,7 @@ function App() {
 
 
         <div className='relative flex items-center 
-        jjustify-center  text-lg	overflow-y-auto'>
+        jjustify-center  text-lg	overflow-y-auto mb-10'>
           <div className='z-10'>
             {/* <img src="./terminal.png" className=''></img> */}
             <div className='ml-5 mt-16 mr-5 '>
