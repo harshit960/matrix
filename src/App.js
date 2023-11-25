@@ -100,15 +100,15 @@ function App() {
         <div className='w-full'>
           <div className='text-2xl font-bold'>
             Skills:</div>
-          <div className='flex mr-4 mt-10'>
-            <div className='mx-2 px-2 py-4 border-2 rounded-md'>
+          <div className='flex mr-4 mt-10 flex-wrap '>
+            <div className='mx-2 my-2 px-2 py-4 border-2 rounded-md w-72 '>
               *React.js: I love leveraging React to build captivating and interactive user interfaces that leave a lasting impression. From sleek single-page applications to engaging UI components, React is my superpower.
             </div>
-            <div className='mx-2 px-2 py-4 border-2 rounded-md'>
+            <div className='mx-2 my-2 px-2 py-4 border-2 rounded-md w-72'>
               *Python Expert: Python is my trusty companion for building robust back-end solutions. With Django and Flask, I create efficient web applications that deliver seamless experiences and efficient workflows.
-            </div><div className='mx-2 px-2 py-4 border-2 rounded-md'>
+            </div><div className='mx-2 my-2 px-2 py-4 border-2 rounded-md w-72'>
               *Selenium Web Scraping: Web scraping is my secret weapon for data extraction and automation. I utilize Selenium to scrape websites, saving time and effort while gathering valuable information.
-            </div><div className='mx-2 px-2 py-4 border-2 rounded-md'>
+            </div><div className='mx-2 my-2 px-2 py-4 border-2 rounded-md w-72'>
 
               *Premiere Pro: As a Premiere Pro expert, I add a touch of creativity to videos. From editing footage to applying stunning effects and transitions, I transform raw footage into captivating stories.
             </div></div></div>
@@ -116,8 +116,8 @@ function App() {
       <div className='pro'>
 
         <div className="mx-10 p-2 mt-10">
-          <div className="  flex">
-            <div className="mx-8 w-auto">
+          <div className="flex flex-wrap">
+            <div className="mx-8 w-72 mt-16">
               <h2 className="text-2xl font-bold mb-2">Video File Converter and Uploader</h2>
               <p className="text-gray-500 font-semibold mb-0">Python, Selenium, Youtube API, Pytube</p>
               <p className="text-gray-600 text-sm	 mb-2">Jul 2023</p>
@@ -126,7 +126,7 @@ function App() {
                 <li>Integrated YouTube Data API to upload the converted videos to YouTube, serving as a cloud-based storage solution.</li>
               </ul>
             </div>
-            <div className="mx-8 w-auto">
+            <div className="mx-8 w-72 mt-16">
               <h2 className="text-2xl font-bold mb-2">Culfest Website</h2>
               <p className="text-gray-500 font-semibold mb-0">Node.js, Next.js, Chakra UI, Git</p>
               <p className="text-gray-600 text-sm	 mb-2">Apr 2023</p>
@@ -136,7 +136,7 @@ function App() {
                 <li>Managed the project using Git for version control and collaborative development.</li>
               </ul>
             </div>
-            <div className="mx-8 w-auto">
+            <div className="mx-8 w-72 mt-16">
               <h2 className="text-2xl font-bold mb-2">Electron.js Freelance project</h2>
               <p className="text-gray-500 font-semibold mb-0">Electron.js</p>
               <p className="text-gray-600 text-sm	 mb-2">Jun 2023</p>
@@ -145,7 +145,7 @@ function App() {
                 <li>Implemented a file conversion system using various JavaScript libraries for enhanced functionality.</li>
               </ul>
             </div>
-            <div className="mx-8 w-auto">
+            <div className="mx-8 w-72 mt-16">
               <h2 className="text-2xl font-bold mb-2">Selenium Freelance project</h2>
               <p className="text-gray-500 font-semibold mb-0">Selenium, Python</p>
               <p className="text-gray-600 text-sm	 mb-2">Jul 2023</p>
@@ -154,7 +154,7 @@ function App() {
                 <li>Developed a bypass mechanism for Captcha challenges using Captcha solving, advanced Selenium drivers, and proxy techniques.</li>
               </ul>
             </div>
-            <div className="mx-8 w-auto">
+            <div className="mx-8 w-72 mt-16">
               <h2 className="text-2xl font-bold mb-2">GrabOn</h2>
               <p className="text-gray-500 font-semibold mb-0">Flask, React.js, Selenium</p>
               <p className="text-gray-600 text-sm	 mb-2">Oct 2022</p>
